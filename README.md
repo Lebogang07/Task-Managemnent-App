@@ -21,11 +21,11 @@ No backend required
 
 Technologies Used
 
-CSS
-HTML
-JavaScript
-Font Awesome (icons)
-LocalStorage API
+● CSS
+● HTML
+● JavaScript
+● Font Awesome (icons)
+● LocalStorage API
 
 Application Design
 
