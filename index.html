@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script> 
+</head>
+
+<body>
+    <h1 class="fade-up"> Task Management App </h1>
+
+    <div class="card">
+        <h2> Login </h2>
+
+        <div class="form-row">
+            <label>Username: </label>
+            <input type="text" placeholder="Enter your username..." id="username"> 
+
+        </div>
+
+        <div class="form-row">
+            <label>Password: </label>
+            <input type="password" placeholder="Enter your password..." id="password"> 
+
+        </div>
+
+        <p class="error-message" id="loginError"></p>
+
+        <div class="checkbox-row">
+            <label>Remember me</label>
+            <input type="checkbox" id="remember">
+
+        </div>
+        
+        <div class="login-button">
+            
+            <button type="button" onclick="login()">Login</button>
+            
+        </div>
+
+        <div class="signup-row">
+            <span>Don't have an account?</span>
+            <a href="signup.html">Sign Up</a>
+        </div>
+
+    </div>
+        
+</body>
+</html>

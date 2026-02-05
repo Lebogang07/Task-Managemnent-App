@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script> 
+    <script>
+        if (!localStorage.getItem("user")) {
+            window.location.href = "index.html";
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/9eb9d9a38d.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo"> Task Management App </div>
+        
+    </header>
+
+<div class="dashboard">
+    <aside class="sidebar">
+        <a href="#" id="my-dashboard-link" class="active">Dashboard</a>
+        <a href="#" id="my-tasks-link">My Tasks</a>
+        <a href="#" id="completed-link">Completed</a>
+    </aside>
+
+
+    <main class="main-content" id="main-content">
+        
+        <div class="tasks-header">
+
+            <h5>My Tasks</h5>
+            <button class="create-task" onclick="openModal()">
+                <i class="fa-solid fa-plus fa-2xl"></i>
+            </button>
+            
+        </div>
+        
+        <div class="date-strip" id="dateStrip"></div>
+    
+        <div id="taskList" class="task-list"></div>
+        
+    </main>    
+    
+</div>
+
+<div class="modal" id="taskModal">
+    <div class="modal-content">
+        <h2>Create New Task</h2>
+
+        <label>Task Name</label>
+        <input type="text" id="taskName">
+
+        <label>Description</label>
+        <textarea id="taskDesc"></textarea>
+
+        <label>Time</label>
+        <input type="time" id="taskTime">
+
+        <div class="modal-actions">
+            <button class="btn-primary" onclick="createTask()">Create</button>
+            <button class="btn-secondary" onclick="closeModal()">Cancel</button>
+ 
+        </div>
+
+    </div>
+
+</div>
+ 
+</body>
+</html>
