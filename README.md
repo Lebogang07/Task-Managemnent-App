@@ -5,19 +5,19 @@ The app allows users to create, manage, track tasks per day and, mark tasks as c
 
 Key Features
 
-User authentication (Sign Up / Login / Logout)
+▶ User authentication (Sign Up / Login / Logout)
 
-Create, edit, and delete tasks
+▶ Create, edit, and delete tasks
 
-Mark tasks as completed
+▶ Mark tasks as completed
 
-View completed tasks for the selected date
+▶ View completed tasks for the selected date
 
-Date-based task organization with a scrollable date selector
+▶ Date-based task organization with a scrollable date selector
 
-Persistent data storage using localStorage
+▶ Persistent data storage using localStorage
 
-No backend required
+▶ No backend required
 
 Technologies Used
 
