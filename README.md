@@ -33,30 +33,36 @@ Technologies Used
 
 Application Design
 
-Uses a content swap pattern for navigation (no page reloads)
+■ Uses a content swap pattern for navigation (no page reloads)
 
-Sidebar navigation controls which view is rendered
+■ Sidebar navigation controls which view is rendered
 
-LocalStorage acts as the single source of truth
+■ LocalStorage acts as the single source of truth
 
-Modular JavaScript functions for scalability and maintainability
+■ Modular JavaScript functions for scalability and maintainability
 
 How to Run the Project
 
-Download or clone the repository
+◊ Download or clone the repository
 
-Open index.html in your browser
+◊ Open index.html in your browser
 
-Create an account or log in
+◊ Create an account or log in
 
-Start managing your tasks
+◊ Start managing your tasks
 
 Project Structure
 
 /project-root
+
 │── index.html        # Login page
+
 │── signup.html       # Sign up page
+
 │── dashboard.html    # Main app UI
+
 │── style.css         # Styling
+
 │── script.js         # App logic
+
 │── README.md
